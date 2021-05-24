@@ -76,7 +76,6 @@ class Get:
     """
     获取测试数据
     """
-
     @staticmethod
     def test_data(yaml_name: str, case_name: str) -> List:
         test_data = GetCaseYaml(yaml_name, case_name).test_data_values()

@@ -18,7 +18,7 @@ MAC_CHROME = os.path.join(BASE_DIR, "driver", "mac", "chromedriver")  # 谷歌�
 MAC_FIREFOX = os.path.join(BASE_DIR, "driver", "mac", "geckodriver")  # 火狐浏览器
 
 # 日志路径
-LOG_DIR = os.path.join(BASE_DIR, "log")
+LOG_DIR = os.path.join(BASE_DIR, "Log")
 
 # 测试用例集路径
 
