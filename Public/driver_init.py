@@ -21,7 +21,6 @@ class WebInit:
     """
     返回浏览器驱动
     """
-
     def __init__(self):
         self.browser = BROWSER_NAME.lower()
         self.baseurl = URL

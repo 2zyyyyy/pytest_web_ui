@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import os
-
 import pytest
 import allure
-
 from Page.baidu import BaiDu
 from Public.yaml_data import case_data
 

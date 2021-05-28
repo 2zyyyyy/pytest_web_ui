@@ -13,15 +13,15 @@ from selenium.webdriver.common.action_chains import ActionChains
 from Public.common import ErrorCustom
 from Public.yaml_data import GetLocatorYaml, GetCaseYaml
 from Public.logs import logger
-from Config.ptahconf import SCREENSHOT_DIR
+from Config.ptahconf import SCREENSHOT_DIR, MAC_CHROME
 from Config.setting import POLL_FREQUENCY, IMPLICITLY_WAIT_TIME
 
 
 class Base:
     yamlFile = None
 
-    def __init__(self, driver):
-        self.driver = driver
+    def __init__(self):
+        self.driver = MAC_CHROME
 
     def get_title(self):
         """

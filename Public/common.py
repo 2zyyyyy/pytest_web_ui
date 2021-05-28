@@ -67,8 +67,6 @@ def del_clean_report():
     if IS_CLEAN_REPORT:  # 如果为 True 清除 REPORT_ALLURE_DIR、 REPORT_JSON_DIR 、REPORT_SCREEN_DIR 路径下报告
         dirs = [REPORT_ALLURE_DIR, REPORT_JSON_DIR, SCREENSHOT_DIR]
         for d in dirs:
-            # dir_file = Path(dir) # 判断路径是否存在
-            # if dir_file.is_file():
             clean_report(d)
 
 
